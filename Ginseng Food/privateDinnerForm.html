@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="privateDinner.css">
+    <title>Jungsik / Private Dinner</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html" class="nav-brand"><img src="images/logo2.png" alt="Ginseng Food logo" class="brand-img"></a>
+            <ul class="nav-list ham-menu">
+                <li class="nav-list-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-list-item">
+                  <a href="index.html" class="nav-link">About Us</a>
+                </li>
+
+                <li class="nav-list-item">
+                  <a href="Menu.html" class="nav-link">Menu</a>
+                </li>
+
+                <li class="nav-list-item">
+                  <a href="index.html" class="nav-link">Contact Us</a>
+                </li>
+
+                <li class="nav-list-item reservation-button">
+                  <a href="#reservation" class="nav-link" style="color: var(--clr-red);">Reservation</a>
+                  <div class="dropdown text-center">
+                    <ul>
+                      <li class="dropdown-link">
+                        <a href="NormalReservation.html">Dinner</a>
+                      </li>
+
+                      <li class="dropdown-link">
+                        <a href="privateDinnerForm.html">Private Dinner</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+            </ul>
+            <a href="#" class="toggle-button">
+                <span class="bar" id="bar1"></span>
+                <span class="bar" id="bar2"></span>
+                <span class="bar" id="bar3"></span>
+            </a>
+        </nav>
+    </header>
+    <main>
+      <div class="survey">
+        <div class="complete-form text-center">
+          <h1 class="fs-900 fw-bold">Reservation Request Complete !</h1>
+          <p class="fs-700 fw-regular">We will call you as soon as possible.</p>
+          <a href="index.html"><button class="button">Continue</button></a>
+        </div>
+        <form action="#" id="survey-form">
+          <div class="title | text-center">
+            <h1 class="fs-primary-heading fw-bold">Jungsik<br>Private Dinner</h1>
+            <p class="fs-400 fw-regular">Ginseng can host your special occasion with Group Dining and Private Dining Room options. We also do full restaurant buyouts for up to 50 guests.</p>
+          </div>
+
+          <div class="survey-items">
+            <div class="first-and-last-names">
+              <div class="survey-item">
+                <label for="name" id="name-label" class="labels">Your Name</label>
+                <input type="text" name="Name" id="name" placeholder="Enter your first name" class="format" required>
+                <small>Error message</small>
+              </div>
+              <div class="survey-item">
+                <label for="surname" id="surname-label" class="labels">Your Surname</label>
+                <input type="text" name="Surname" id="surname" placeholder="Enter your surname" class="format" required>
+                <small>Error message</small>
+              </div>
+            </div>
+            <div class="survey-item-email">
+              <label for="email" id="email-label" class="labels">Email</label>
+              <input type="email" name="Email" id="email" placeholder="Enter your email" class="format" required>
+              <small>Error message</small>
+            </div>
+            <div class="phone-and-guests">
+              <div class="survey-item">
+                <label for="phone" id="phone-label" class="labels">Your Phone Number</label>
+                <input type="tel" name="Name" id="phone" placeholder="Enter your phone number" class="format" required>
+                <small>Error message</small>
+              </div>
+              <div class="survey-item">
+                <label for="number" id="number-label" class="labels">Amount of guests</label>
+                <input type="number" name="Guests" id="number" placeholder="Enter amount of guests" class="format" required>
+                <small>Error message</small>
+              </div>
+            </div>
+            <div class="date-and-hour">
+              <div class="survey-item">
+                <label for="date-item" id="date-label" class="labels">Reservation Date</label>
+                <input type="date" name="Date" id="date-item" value="20-12-2022" min="20-12-2022" max="1-6-2023" class="format" required>
+                <small>Error message</small>
+              </div>
+              <div class="survey-item">
+                <label for="hour" id="hour-label" class="labels">Desired Time</label>
+                <input type="time" name="Hour" id="hour" min="17:00" max="22:00" class="format" required><br>
+                <p>Ginseng opens 05:00 PM - 10:00 PM</p>
+                <small>Error message</small>
+              </div>
+            </div>
+            
+            <div class="submit-button"><button type="submit" class="button" id="submitButton">Submit</button></div>
+          </div>
+
+
+        </form>
+
+      </div>
+    </main>
+    
+    <script src="scripts/pform.js"></script>
+    <script src="scripts/formValidation.js"></script>
+</body>
+</html>
