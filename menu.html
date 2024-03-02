@@ -1,94 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
-    <title>Ginseng Food / Menu</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <title>Ginseng Food / Menu</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1>Gonna do this later.</h1>
-        </nav>
-    </header>
-    <main>
-        <div class="main-title | text-center container">
-            <h2 class="fs-650 fw-semi-bold">구매하기</h2>
-        </div>
+  <header>
+    <nav>
+      <a href="index.html" class="nav-brand"><img src="images/logo2.png" alt="Ginseng Food logo" class="brand-img"></a>
+      <ul class="nav-list ham-menu">
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
 
-        <div class="product-info fs-300">
-            <p class="prdCount">
-                등록 제품 : 
-                <strong>6</strong>
-                개
-            </p>
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-link">About Us</a>
+        </li>
 
-            <ul class="sorters">
-                <li class="sorter-item">
-                    <a href="">신상품</a>
-                </li>
-                <li class="sorter-item">
-                    <a href="">낮은가격</a>
-                </li>
-                <li class="sorter-item">
-                    <a href="">높은가격</a>
-                </li>
+        <li class="nav-list-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-link">Contact Us</a>
+        </li>
+
+        <li class="nav-list-item">
+          <a href="#reservation" class="nav-link" style="color: var(--clr-red);">Reservation</a>
+          <div class="dropdown text-center">
+            <ul>
+              <li class="dropdown-link">
+                <a href="privateDinnerForm.html">Private Dinner</a>
+              </li>
             </ul>
-        </div>
-        <section class="menu-section | container">
-            <div class="menu-items">
-                <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-1">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">몽탄 짚불고기 8팩 + 만능 불고기 소스 1병</p>
-                      <p class="price">66,900원</p>
-                    </div>
-                  </a>
-                  <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-2">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">몽탄 맑은 소한가득탕 800g X 9팩</p>
-                      <p class="price">82,900원</p>
-                    </div>
-                  </a>
-                  <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-3">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">몽탄 우대갈비 800g + 소스 120g 증정</p>
-                      <p class="price">99,000원</p>
-                    </div>
-                  </a>
-                  <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-4">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">유자와사비 소스 120g</p>
-                      <p class="price">20,000원</p>
-                    </div>
-                  </a>
-                  <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-5">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">몽탄 살얼음 무생채 김치 250g 1팩</p>
-                      <p class="price">9,900원</p>
-                    </div>
-                  </a>
-                  <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
-                    <div class="menu-box product-6">
-                    </div>
-                    <div class="menu-text">
-                      <p class="menu-text-desc">양파 갈비 볶음밥 210g 1팩</p>
-                      <p class="price">10,900원</p>
-                    </div>
-                  </a>
-            </div>
-        </section>
-    </main>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="toggle-button">
+        <span class="bar" id="bar1"></span>
+        <span class="bar" id="bar2"></span>
+        <span class="bar" id="bar3"></span>
+      </a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-title | text-center container">
+      <h2 class="fs-650 fw-semi-bold">구매하기</h2>
+    </div>
+
+    <div class="product-info fs-300">
+      <p class="prdCount">
+        등록 제품 :
+        <strong>6</strong>
+        개
+      </p>
+
+      <ul class="sorters">
+        <li class="sorter-item">
+          <a href="">신상품</a>
+        </li>
+        <li class="sorter-item">
+          <a href="">낮은가격</a>
+        </li>
+        <li class="sorter-item">
+          <a href="">높은가격</a>
+        </li>
+      </ul>
+    </div>
+    <section class="menu-section | container">
+      <div class="menu-items">
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-1">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">몽탄 짚불고기 8팩 + 만능 불고기 소스 1병</p>
+            <p class="price">66,900원</p>
+          </div>
+        </a>
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-2">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">몽탄 맑은 소한가득탕 800g X 9팩</p>
+            <p class="price">82,900원</p>
+          </div>
+        </a>
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-3">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">몽탄 우대갈비 800g + 소스 120g 증정</p>
+            <p class="price">99,000원</p>
+          </div>
+        </a>
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-4">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">유자와사비 소스 120g</p>
+            <p class="price">20,000원</p>
+          </div>
+        </a>
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-5">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">몽탄 살얼음 무생채 김치 250g 1팩</p>
+            <p class="price">9,900원</p>
+          </div>
+        </a>
+        <a href="#" class="menu-item | text-primary-1 fs-650 fw-regular">
+          <div class="menu-box product-6">
+          </div>
+          <div class="menu-text">
+            <p class="menu-text-desc">양파 갈비 볶음밥 210g 1팩</p>
+            <p class="price">10,900원</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <script src="scripts/menuNav.js"></script>
 </body>
+
 </html>
